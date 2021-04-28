@@ -22,6 +22,6 @@ namespace StaticClasses
             return a * b;
         } // Static Method is hung directly to the class, not to the curr instance
         // MAth, Console, TimeZone
-        // Static classes are global, simplify the code, more readble, better perfoamance
+        // Static classes are global, simplify the code, more readable, better performance
     }
 }
