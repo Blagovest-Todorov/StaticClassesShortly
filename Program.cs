@@ -3,10 +3,10 @@
 namespace StaticClasses
 {
    static class SoftUniMaths
-    {  //static class -class -we can not make instances, cariables, objects of teh class 
-        // static classes can not be instantiated, all members must be static , otherwise compiler Error
+    {  //static class -class -we cannot make instances, variables, objects of the class 
+        // static classes cannot be instantiated, all members must be static , otherwise compiler Error
         //static class is sealed -> can not be inherited
-        //static class can not ihnerit from other classes, , static members can be accessed through class name
+        //static class can not inherit from other classes, static members can be accessed through class name
         static void Main(string[] args)
         {
             
@@ -20,7 +20,7 @@ namespace StaticClasses
         public static int multiply(int a, int b) 
         {
             return a * b;
-        } // Static Method is hung directly to the class, not tot the curr instance
+        } // Static Method is hung directly to the class, not to the curr instance
         // MAth, Console, TimeZone
         // Static classes are global, simplify the code, more readble, better perfoamance
     }
